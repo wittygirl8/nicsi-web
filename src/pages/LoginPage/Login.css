@@ -1,0 +1,29 @@
+/* The css in login page is mostly derived from RegisterPage css: Here is the path: /../RegistrationPage/Register.css */
+
+.label-agree-term {
+    position: relative;
+    top: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.err-msg{
+    font-size: 14px;
+    font-weight: 600px;
+    color: #bd1f03;
+    width: 100%;
+  }
+
+.err-credential-msg {
+    font-size: 16px;
+    font-weight: 600px;
+    color: #c52003;
+    width: 100%;
+    margin-top: 5%;
+    /* text-align: center; */
+} 
+
+  @media (min-width: 1025px) {
+    .h-custom-2 {
+      height: 80%;
+    }
+  }

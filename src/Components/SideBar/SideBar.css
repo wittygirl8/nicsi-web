@@ -1,0 +1,36 @@
+.vertical-nav{
+    background-color: whitesmoke;
+    width: 25%;
+    position: fixed;
+    height: 100vh;
+    margin-left: -24%;
+    padding: 1% .5% 1% .5%;
+    border-radius: 15px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.vertical-nav:hover{
+    background-color: #ffffff;
+    width: 25%;
+    position: fixed;
+    height: 100vh;
+    margin: 0%;
+    padding: 1% .5% 1% .5%;
+    border-radius: 15px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.arrow{
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    top:15%;
+    left:95%;
+    border-left: 2px blue !important;
+    padding-top: .7rem;
+    padding-left: 1.8rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.arrow:hover{
+    background-color: whitesmoke;
+}

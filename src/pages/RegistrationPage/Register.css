@@ -1,0 +1,80 @@
+/* The same css will also reflect in the Login form too. */
+
+input {
+  display: block;
+  border: none;
+  border-bottom: 1px solid #999;
+  padding: 6px 30px;
+  font-family: Poppins;
+  box-sizing: border-box;
+}
+input[type=radio]:not(old) {
+    margin-left: 1em;
+    margin-top: 3em;
+    margin-bottom: .2em;
+    width: 2em;
+    font-size: 1em;
+    display: inline-block;
+}
+
+.err-msg{
+    font-size: 11px;
+    font-weight: 600px;
+    color: #df4930;
+    width: 100%;
+  }
+ /* ------------------------------------------------------------------------ */
+.radio_options{
+    margin-bottom: 1rem;
+    margin-top: -1.5rem;
+}
+.Head-label-Radio{
+  margin-top: -3.6rem;
+  margin-left: 1em;
+  color: rgb(77, 77, 78);
+  font-size: 17px;
+  font-family: 'Times New Roman', Times, serif;
+}
+  @media (min-width: 1025px) {
+    .h-custom {
+      height: 100vh !important;
+    }
+  }
+  .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+  }
+  .card-registration .select-arrow {
+    top: 13px;
+  }
+  
+  .register_content {
+    /* fallback for old browsers */
+    height: inherit;
+    padding: 6rem 0rem 1rem 0rem;
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(180deg,#030327, rgb(83, 99, 243),  rgb(83, 99, 243), #030327);
+  }
+  
+  .bg-indigo {
+    background-color: #4835d4;
+  }
+  @media (min-width: 992px) {
+    .card-registration-2 .bg-indigo {
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+    }
+  }
+  @media (max-width: 991px) {
+    .card-registration-2 .bg-indigo {
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+    }
+  }  
+  .background_register_contact{
+    background-color: indigo;
+    border-radius: 20px;
+  }

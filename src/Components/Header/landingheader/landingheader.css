@@ -1,0 +1,153 @@
+.logo {
+    height: 4rem;
+    margin-left: 2rem;
+    margin-top: 2vh;
+}
+.img:hover{
+    border:none !important;
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    .logo {
+        height: 3rem;
+    }
+}
+    
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    .logo {
+        height: 3rem;
+    }
+}
+    
+
+/* iPhone 6+, 7+, 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    .logo {
+        height: 3rem;
+    }
+}
+    
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    .logo {
+        height: 3rem;
+    }
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    .logo {
+        height: 3rem;
+    }
+}
+    
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    .logo {
+        height: 3rem;
+    }
+}
+
+/* iPhone X ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    .logo {
+        height: 3rem;
+    }
+}
+    
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    .logo {
+        height: 3rem;
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .logo {
+        height: 3rem;
+    }
+}
+    
+    /* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    .logo {
+        height: 3rem;
+    }
+}
+
+/* iPads Pro (landscape) ----------- */
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation : landscape) {
+    .logo {
+        height: 3rem;
+    }
+}
+    
+/* iPads Pro (portrait) ----------- */
+ @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation : portrait) {
+    .logo {
+        height: 3rem;
+    }
+}
+
+@media only screen and (min-device-width : 280px) and (max-device-width : 653px) and (orientation : portrait) {
+    .logo {
+        height: 3rem;
+    }
+}
+@media only screen and (min-device-width : 540px) and (max-device-width : 720px) and (orientation : landscape) {
+    .logo {
+        height: 3rem;
+    }
+}
+
+@media (min-width: 1024px) and (max-width:1366px) {
+    .nav_btn
+    {
+        font-size: 18px;
+        border-radius:5px;
+        padding: .5rem 1rem;
+        background-color: #4c39df;
+    }
+    .signin{
+        margin-left: 90vh;
+    }
+    .signup{
+        margin-left: 2vh;
+    }
+}
+
+/* Top Nav */
+ .login-container {
+    float: right;
+  }
+.login-container button {
+    background-color: #4c39df;
+    border-radius: 5px;
+    box-shadow:0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .login-container button:hover {
+    background-color: blue;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav .login-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .login-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      text-align: center;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+  }

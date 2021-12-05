@@ -1,0 +1,276 @@
+.home_content{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(180deg,#030327, rgb(83, 99, 243),  rgb(83, 99, 243), #030327);
+    overflow-x: none;
+    overflow-y: none;
+    z-index: -1;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+    .home_content{
+        height: 100vh;
+    }
+}
+
+.container{
+    background-color: transparent;
+    margin-bottom: 20vh;
+}
+
+.module_header{
+    font-weight: 780;
+    font-family: 'Fira Sans Condensed',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 4rem;
+    color: #ffffff!important;
+    line-height: 1.2em;
+}
+
+.sign_up_btn{
+    background-color: #4c39df;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-bottom: 8rem;
+    font-size: 1.5rem;
+    box-shadow:0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sign_up_btn:hover{
+    color: white;
+}
+.main_body{
+    padding-top: 20vh;
+    height: 90vh;
+}
+
+.header-stripes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 920px;
+    width:100%;
+    margin-top: -130px;
+    margin-right: -20px;
+    display: grid;
+    grid: repeat(6,150px)/repeat(10,1fr);
+    -webkit-transform-origin: 0;
+    transform-origin: 0;
+    -webkit-transform: skewY(-9deg);
+    transform: skewY(-9deg);
+    background-image: linear-gradient(180deg,rgb(83, 99, 243),#030327);
+    z-index: -1;
+    overflow-y: none;
+    overflow-x: none;
+}
+.header-stripes :first-child {
+    grid-column: span 4;
+    overflow-y: none;
+    overflow-x: none;
+    grid-row: span 2;
+    background-image: linear-gradient(90deg,hsla(0,0%,100%,.4) 20%,hsla(0,0%,100%,.0));
+}
+.header-stripes :nth-child(2) {
+    grid-row-start: 4;
+    overflow-y: none;
+    overflow-x: none;
+    grid-column-start: span 2;
+    grid-row-end: 6;
+    grid-column-end: -1;
+    background-image: linear-gradient(90deg,rgba(189,194,193,0),rgb(88, 104, 246));
+}
+.header-stripes :nth-child(3) {
+    height:320px;
+    overflow-y: none;
+    overflow-x: none;
+    grid-row: 5/span 2;
+    grid-column: 1/span 5;
+    background-image: linear-gradient(90deg,rgb(88, 104, 246) 50%,hsla(0,0%,100%,0));
+}
+.header-stripes :nth-child(4) {
+    grid-row-start: 6;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    transform: translateY(100%);
+    background-image: linear-gradient(90deg,#fff 50%,#f2fffc);
+}
+.btn_margin{
+    margin-top: 7%;
+}
+
+.custom_design figure {
+    background: url(https://linkedofy.io/wp-content/uploads/2020/04/testimonial.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    flex: 0 0 auto;
+    margin-left: 24px;
+}
+
+.animation1{
+    animation-timing-function: cubic-bezier(0,0,1,1);
+    animation: mymovecontent 1s;
+}
+.animation2{
+    animation-timing-function: cubic-bezier(1,1,0,0);
+    animation: mymoveimg 1s;
+}
+@keyframes mymovecontent {
+    from {left: -1100px;;}
+    to {left: 2vw;}
+  }
+
+@keyframes mymoveimg {
+    from {right: -1100px;}
+    to {right: 2vw;}
+  }
+
+/* Font */
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    
+    .module_header{
+        font-size: 4rem;
+        line-height: 1.2em;
+    }
+    
+    .sign_up_btn{
+        font-size: 1rem;
+    }
+
+    .custom_design figure {
+        width: 80vw;
+        height: 80vh;
+    }
+
+}
+    
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){   
+    .module_header{
+        font-size: 2rem;
+        line-height: 1.2em;
+    }
+    
+    .sign_up_btn{
+        font-size: 1rem;
+    }
+}
+
+/* Pixcel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-height: 823px) and (orientation: portrait) 
+{ 
+    .module_header{
+        font-size: 2rem;
+        line-height: 1.2em;
+    }
+
+    .sign_up_btn{
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-device-width: 411px) and (max-device-height: 823px) and  (orientation: landscape) 
+{ 
+    .module_header{
+        font-size: 2rem;
+        line-height: 1.2em;
+    }
+
+    .sign_up_btn{
+        font-size: 1rem;
+    }
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    .module_header{
+        font-size: 1.5rem;
+        line-height: 1.2em;
+    }
+
+    .sign_up_btn{
+        font-size: 1rem;
+    }
+    }
+    
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+        .module_header{
+            font-size: 2rem;
+            line-height: 1.2em;
+        }
+    
+        .sign_up_btn{
+            font-size: 1rem;
+        }
+    }
+
+    /* iPhone X ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+        .module_header{
+            font-size: .5rem;
+            line-height: 1.2em;
+        }
+        .sign_up_btn{
+            font-size: 1rem;
+        }
+    }
+    
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+        .module_header{
+            font-size: 2rem;
+            line-height: 1.2em;
+        }
+    
+        .sign_up_btn{
+            font-size: 1rem;
+        }
+    }
+
+    /* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+        .module_header{
+            font-size: 3rem;
+            line-height: 1.2em;
+        }
+    
+        .sign_up_btn{
+            font-size: 1rem;
+        }
+    }
+    
+    /* iPads (portrait) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1021px) and (orientation : portrait) {
+        .module_header{
+            font-size: 4rem;
+            line-height: 1.2em;
+        }
+    
+        .sign_up_btn{
+            font-size: 1rem;
+        }
+    }
+
+    /* iPhone 5 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+        .module_header{
+            font-size: 2rem;
+            line-height: 1.2em;
+        }
+    
+        .sign_up_btn{
+            font-size: 1rem;
+        }
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+        .module_header{
+            font-size: 1.5rem;
+            line-height: 1.2em;
+        }
+    
+        .sign_up_btn{
+            font-size: 1rem;
+        }
+    }

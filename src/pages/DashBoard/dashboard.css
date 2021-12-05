@@ -1,0 +1,22 @@
+.dash-item{
+    background-color: #ffffff;
+    width: 99%;
+    height: 100%;
+    margin-left:1%;
+}
+.create-btn{
+    width: 6rem;
+    height: inherit;
+    padding: .5% 1.5%;
+    margin:.3% 2% 1% 90% ;
+    background-color: #212529;
+    color: #ffffff;
+    font-size: 1rem;
+    border-radius: 5%;
+    font-family: sans-serif;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.create-btn:hover{
+    color: #ffffff;
+}
+
